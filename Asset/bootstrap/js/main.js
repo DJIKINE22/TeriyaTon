@@ -8,7 +8,7 @@ function maFonction() {
   }
 
   function listemois() {
-    var div = document.getElementById("mois")
+    var div = document.getElementById("mois") 
     if (div.style.display === "block") {
       div.style.display = "none";
     } else {
