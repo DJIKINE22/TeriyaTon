@@ -1,0 +1,94 @@
+/* ACCUEIL ADMIN */
+/* L'en tête */
+#haut{
+    background-color: #FFADD6;
+}
+
+/* le titre */
+h3{
+    text-align: center;
+    color: white;
+}
+
+/* Logo */
+#logo{
+   margin-left: 85%;
+}
+
+/* Container */
+.container{
+
+    background-color: #AA56FF;
+    margin-top: 4%; 
+
+} 
+
+.carre1{
+    border: 2px solid white;
+    margin-left: 30%;
+    width: 35%;
+    margin-top: -20%;
+    background-color: white;
+    border-radius: 10px;
+  
+}
+
+.carre2{
+    border: 2px solid white;
+    margin-right: -40%;
+    width: 35%;
+    margin-top: -68px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.carre3{
+    border: 2px solid white;
+    margin-top: -65px;
+    margin-left: -30%;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.carre4{
+    border: 2px solid white;
+    margin-left: 40%;
+    width: 45%;
+    margin-top: 30%;
+    margin-bottom: 60px;
+    background-color: white;
+    border-radius: 10px;
+  
+}
+
+.carre5{
+    border: 2px solid white;
+    margin-left: 40%;
+    width: 47%;
+    margin-top: -80%;
+    margin-top: 35%;
+    margin-bottom: 60px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.carre6{
+    border: 2px solid white;
+    margin-left: 40%;
+    width: 47%;
+    margin-top: 35%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.carre7{
+    border: 2px solid white;
+    margin-left: 40%;
+    width: 50%;
+    margin-top: 35%;
+    background-color: white;
+    border-radius: 10px;
+}
+

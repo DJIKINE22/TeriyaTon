@@ -1,0 +1,74 @@
+/* ACCUEIL MEMBRE */
+/* L'en tête */
+#haut{
+    background-color: #FFADD6;
+}
+
+/* le titre */
+h3{
+    text-align: center;
+    color: white;
+}
+
+/* Logo */
+#logo{
+   margin-left: 85%;
+}
+
+/* Container */
+.container{
+
+    background-color: #AA56FF;
+    margin-top: 5%; 
+
+} 
+
+/* Les sections */
+
+#section2{
+    margin-top: -5%;
+}
+
+.carre1{
+   border: 2px solid white;
+   margin-left: 50%;
+   width: 25%;
+   margin-top: -10%;
+   background-color: white;
+   border-radius: 10px;
+ 
+}
+
+.carre2{
+    border: 2px solid white;
+    margin-left: 50%;
+    width: 25%;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 10px;
+ }
+
+.carre3{
+    border: 2px solid white;
+    margin-right: -40%;
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.carre4{
+    border: 2px solid white;
+    margin-right: -40%;
+    width: 25%;
+    margin-bottom: 5px;
+    margin-top: -20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+ 
+ 

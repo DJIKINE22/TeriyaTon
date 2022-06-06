@@ -1,0 +1,34 @@
+/* TITRE */
+
+.page{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+   
+}
+#haut{
+    background-color: #FFADD6;
+}
+
+/* le titre */
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+/* Container */
+.container{
+
+    margin-top: 4%; 
+
+} 
+ /* le boutton valider */
+.btn{
+    margin-left: 40%;
+}
+
+img{
+    margin-left: 101%;
+    margin-top: -11%;
+}
