@@ -9,8 +9,9 @@
     <!--les liens bootstrap-->
     <link rel="stylesheet" href="../Asset/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../Asset/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Asset/bootstrap/js/main.js">
-    <!-- <script src="bootstrap/js/bootstrap.bundle.js"></script> -->
+    <script src="../Asset/bootstrap/js/bootstrap.js"></script>
+    <script src="../Asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Asset/bootstrap/js/bootstrap.bundle.js"></script>
     <title>ACCUEIL ADMIN</title>
 </head>
 <body>
@@ -31,13 +32,13 @@
             
             <div class="col-md-4">
                 <div class="carre2">
-                    <button type="button" class="btn btn-default btn-sm"><strong>TCHAT</strong><img src="../Asset/img/Discution.png"  style="width: 60%; height: 80%; "></button> <br/>
+                    <a href="../Asset/tchat.html" class="btn btn-default btn-sm" ><strong>TCHAT</strong><img src="../Asset/img/Discution.png"  style="width: 60%; height: 80%; "></a> <br/>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="carre3">
-                    <button type="button" class="btn btn-default btn-sm"><strong>VISIOCONFERENCE</strong><img src="../Asset/img/Viedeo.png"  style="width: 50%; height: 60%; "></button> <br/>
+                    <a href="../Asset/visioconference.html" class="btn btn-default btn-sm"><strong>VISIOCONFERENCE</strong><img src="../Asset/img/Viedeo.png"  style="width: 50%; height: 60%; "></a> <br/>
                 </div>
             </div>
         </div>
@@ -51,19 +52,34 @@
 
             <div class="col-md-3">
                 <div class="carre5">
-                    <button type="button" class="btn btn-default btn-sm"><strong>ETAT</strong><img src="../Asset/img/Etat.png"  style="width: 70%; height: 100%; "></button> <br/> 
+                    <a href="../Asset/Etat.html " class="btn btn-default btn-sm"><strong>ETAT</strong><img src="../Asset/img/Etat.png"  style="width: 70%; height: 100%; "></a> <br/> 
                 </div>
             </div>
 
             <div class="col-md-3">
+                <div class="carre6" style="text-align: center; ">
+                    <div class="dropdown">
+                        <!-- <button type="button"> -->
+                            <strong >GROUPE</strong><img src="../Asset/img/Groupe.png"  style="width: 70%; height: 100%; "  class="btn btn-default btn-sm dropdown-toggle" data-bs-toggle="dropdown"><br/>
+                        <!-- </button> -->
+                        <ul class="dropdown-menu" style="width: 20px;" >
+                          <li><a class="dropdown-item" href="../Asset/membre_groupe.html">GROUPE1</a></li>
+                          <li><a class="dropdown-item" href="#">GROUPE2</a></li>
+                          <li><a class="dropdown-item" href="#">GROUPE3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="col-md-3">
                 <div class="carre6">
                     <button type="button" class="btn btn-default btn-sm"><strong>GROUPE</strong><img src="../Asset/img/Groupe.png"  style="width: 70%; height: 100%; "></button> <br/> 
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-md-3">
                 <div class="carre7">
-                    <button type="button" class="btn btn-default btn-sm"><strong>DECONNEXION</strong><img src="../Asset/img/Deconnexion.png"  style="width: 70%; height: 100%; "></button> <br/> 
+                    <a href="..//Asset/Authetification .html" class="btn btn-default btn-sm"><strong>DECONNEXION</strong><img src="../Asset/img/Deconnexion.png"  style="width: 70%; height: 100%; "></a> <br/> 
                 </div>
             </div>
         </div>
