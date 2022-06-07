@@ -68,10 +68,11 @@ nav{
     margin-left: 40px;
     margin-top: 30px;
 }
-/* img{
-    width: 40px;
-    height: 20%;
-} */
+#message_tchat{
+    margin-top: 30%;
+    margin-left: 20px;
+    height: 30px;
+}
 .text_images{
     font-size: 8px;
     font-weight: bold;
@@ -79,7 +80,7 @@ nav{
 .logo{
     margin-left: 720px;
     width: 20%;
-    height: 30%;
+    height: 20%;
 }
 .defiler{
     color: #4f0c92;
@@ -140,6 +141,9 @@ nav{
     text-align: center;
     padding-top: 40px;
 }
+.droit a{
+    text-decoration: none;
+}
 /* debut reunion en cours */
 .corps{
     margin-left: 25%;
@@ -157,7 +161,7 @@ nav{
 .logo2{
     width: 30%;
     height: 20%;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 }
 .btn_cours{
     background-color: #D9D9D9;
@@ -168,6 +172,7 @@ nav{
     /* padding-top: -50px; */
     width: 100px;
     border-radius: 3px;
+    border: 0;
 }
 .btn_terminer{
     background-color: #D9D9D9;
@@ -175,12 +180,9 @@ nav{
     font-size: 15px;
     font-weight: bold;
     margin-left: 75%;
-    /* margin-top: -80%; */
-    /* padding-top: -80%; */
-    /* padding-top: -50px; */
-    /* margin-top: -500px; */
     width: 100px;
     border-radius: 3px;
+    border: 0;
 }
 .img_video{
     width: 200px;
@@ -188,12 +190,10 @@ nav{
     margin-left: 35px;
     border-radius: 5px;
     margin-top: -20px;
-    /* margin--end: 50px; */
 }
 .panel{
     background-color: #d9d9d971;
     padding-bottom: 30px;
-    /* margin-left: 5%; */
 }
 #message{
     margin-top: 10px;
@@ -201,7 +201,6 @@ nav{
     
 }
 .mess{
-    /* margin-top: 10px; */
     margin-left: 20px;
     color: #ad1762;
     font-size: 20px;
@@ -219,7 +218,7 @@ nav{
 .liste_membre{
     font-size: 15px;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 140px;
 }
 .btn_liste{
     background-color: #FFADD6;
@@ -227,18 +226,15 @@ nav{
     font-size: 15px;
     font-weight: bold;
     margin-left: 75%;
-    /* margin-top: -80%; */
-    /* padding-top: -80%; */
-    /* padding-top: -50px; */
-    /* margin-top: -500px; */
     width: 100px;
     border-radius: 8px;
+    border: 0;
 }
 .checkbox{
     margin-left: 60%;
-    /* margin-top: 10px;    */
-    /* margin-block-end: 25px; */
+    margin-block-end: 20px;
 }
-.li_membre{
+.ok{
+    margin-top: -90%;
     margin-block-end: 20px;
 }
