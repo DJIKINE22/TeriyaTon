@@ -3,18 +3,19 @@ style {
     box-sizing: border-box;
   }
   body {
-    font-size: 14px;
+    font-size: 10px;
   }
   .v8_2 {
-    width: 1000px;
-    height: 643px;
+    width: 590px;
+    height: 500px;
 
     
     background: rgba(169,85,255,0.7799999713897705);
     opacity: 1;
     position: absolute;
-    top: 100px;
-    left: 800px;
+    margin: auto;
+    top: 50px;
+    left:  400px; 
     overflow: hidden;
   }
   .v8_53 {
@@ -22,10 +23,10 @@ style {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 293px;
-    left: 335px;
+    left: 50px; 
     font-family: Inter;
     font-weight: Regular;
-    font-size: 20px;
+    font-size: 25px;
     opacity: 1;
     text-align: left;
   }
@@ -34,10 +35,10 @@ style {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 363px;
-    left: 336px;
+    left: 50px; 
     font-family: Inter;
     font-weight: Regular;
-    font-size: 20px;
+    font-size: 25px;
     opacity: 1;
     text-align: left;
   }
@@ -46,46 +47,46 @@ style {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 225px;
-    left: 335px
-;
+    left: 50px; 
     font-family: Inter;
     font-weight: Regular;
-    font-size: 20px;
+    font-size: 25px;
     opacity: 1;
     text-align: left;
   }
   .v38_407 {
-    width: 386px;
-    height: 72px;
-    background: rgba(234,234,234,0.8999999761581421);
+    width: 222px;
+    height: 39px;
+    background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 16px;
-    left: 455px;
+    top: 290px;
+    left: 300px;
+    overflow: hidden;
   }
   .v38_408 {
     width: 205px;
     color: rgba(0,0,0,1);
     position: absolute;
     top: 23px;
-    left: 550px;
+    left: 180px;
     font-family: Inter;
     font-weight: Regular;
     font-size: 50px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
   }
   .v102_422 {
-    width: 627px;
-    height: 418px;
-    background: url("../img/date.png");
+    width: 95px;
+    height: 38px;
+    background: url("../img/logo.png" );
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 60px;
-    left: 660px;
+    top: 143px;
+    left: 345px;
     overflow: hidden;
   }
   .v102_424 {
@@ -94,8 +95,8 @@ style {
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 116px;
-    left: 618px;
+    top: 105px;
+    left: 300px;
     border-radius: 50%;
     transform: rotate(-89deg);
   }
@@ -105,9 +106,10 @@ style {
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 166px;
-    left: 618px;
+    top: 156px;
+    left: 300px;
     border-radius: 50%;
+    
   }
   .v186_593 {
     width: 222px;
@@ -115,8 +117,8 @@ style {
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 353px;
-    left: 622px;
+    top: 356px;
+    left: 301px;
     overflow: hidden;
   }
   .v102_426 {
@@ -128,35 +130,31 @@ style {
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 107px;
-    left: 662px;
+    top: 93px;
+    left: 347px;
     overflow: hidden;
   }
   .v102_428 {
-    width: 31px;
-    height: 31px;
-    background: url("date.png");
+    width: 30px;
+    height: 32px;
+    background: url("../img/date.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 357px;
-    left: 800px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+    top: 359px;
+    left: 486px;
     overflow: hidden;
   }
   .v118_408 {
-    width: 222px;
-    height: 39px;
-    background: rgba(255,255,255,1);
+    width: 276px;
+    height: 59px;
+    background: rgb(229, 226, 226);
     opacity: 1;
     position: absolute;
-    top: 215px;
-    left: 621px;
+    top: 20px;
+    left: 144px;
     overflow: hidden;
   }
   .v186_592 {
@@ -165,8 +163,8 @@ style {
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 285px;
-    left: 622px;
+    top: 220px;
+    left: 300px;
     overflow: hidden;
   }
   .v186_595 {
@@ -174,7 +172,7 @@ style {
     color: rgba(0,0,0,1);
     position: absolute;
     top: 301px;
-    left: 667px;
+    left: 350px;
     font-family: Inter;
     font-weight: Regular;
     font-size: 14px;
@@ -186,8 +184,8 @@ style {
     width: 35px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 8px;
-    left: 965px;
+    top: 5px;
+    left: 563px;
     font-family: Inter;
     font-weight: Regular;
     font-size: 25px;
@@ -201,7 +199,7 @@ style {
     opacity: 1;
     position: absolute;
     top: 446px;
-    left: 396px;
+    left: 120px;
     overflow: hidden;
   }
   .v186_599 {
@@ -209,7 +207,7 @@ style {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 453px;
-    left: 415px;
+    left: 138px;
     font-family: Inter;
     font-weight: Bold;
     font-size: 16px;
@@ -222,8 +220,8 @@ style {
     background: rgba(222,143,200,1);
     opacity: 1;
     position: absolute;
-    top: 443px;
-    left: 736px;
+    top: 445px;
+    left: 397px;
     overflow: hidden;
   }
   .v186_602 {
@@ -231,7 +229,7 @@ style {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 447px;
-    left: 752px;
+    left: 415px;
     font-family: Inter;
     font-weight: Bold;
     font-size: 20px;
@@ -243,8 +241,8 @@ style {
     color: rgba(0,0,0,1);
     position: absolute;
     
-    top: 229px;
-    left: 654px;
+    top: 235px;
+    left: 345px;
 
     font-family: Inter;
     font-weight: Regular;
@@ -256,8 +254,8 @@ style {
     width: 80px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 369px;
-    left: 661px;
+    top: 375px;
+    left: 345px;
     font-family: Inter;
     font-weight: Regular;
     font-size: 14px;
@@ -271,8 +269,9 @@ style {
     width: 207px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 146px;
-    left: 333px;
+    /* margin: auto; */
+    top: 137px;
+     left: 50px; 
     font-family: Inter;
     font-weight: Regular;
     font-size: 25px;
