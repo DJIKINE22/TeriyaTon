@@ -1,0 +1,45 @@
+/* JOINDRE REUNION */
+/* L'en tête */
+.page{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#haut{
+    background-color: #FFADD6;
+}
+
+/* le titre */
+h3{
+    text-align: center;
+    color: white;
+}
+
+.contenu{
+    margin-top: 5%;
+    background-color: #AA56FF;
+    width: 45%;
+    margin-left:27%;
+    /* padding: 5%; */
+
+}
+.super{
+    /* position: absolute;
+    top: 50%; */
+    margin-top: 20%;
+    margin-right: -7%;
+}
+img{
+    margin-left: 70%;
+    
+}
+
+a{
+    margin-left: 40%;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    
+}
+
+
