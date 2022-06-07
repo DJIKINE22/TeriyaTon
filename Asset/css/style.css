@@ -218,7 +218,7 @@ nav{
 .liste_membre{
     font-size: 15px;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 140px;
 }
 .btn_liste{
     background-color: #FFADD6;
@@ -232,7 +232,9 @@ nav{
 }
 .checkbox{
     margin-left: 60%;
+    margin-block-end: 20px;
 }
-.li_membre{
+.ok{
+    margin-top: -90%;
     margin-block-end: 20px;
 }
