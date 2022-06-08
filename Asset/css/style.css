@@ -71,7 +71,7 @@ nav{
 #message_tchat{
     margin-top: 30%;
     margin-left: 20px;
-    height: 30px;
+    /* height: 30px; */
 }
 .text_images{
     font-size: 8px;
@@ -196,7 +196,7 @@ nav{
     padding-bottom: 30px;
 }
 #message{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 20px;
     
 }
@@ -205,6 +205,7 @@ nav{
     color: #ad1762;
     font-size: 20px;
     font-weight: bold;
+    /* margin-top: 50px; */
 }
 /* la liste des membres */
 #titre_liste{
