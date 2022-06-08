@@ -3,7 +3,8 @@
 .page{
     width: 50%;
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: -4%;
+    margin-bottom: 4%;
 }
 
 #haut{
@@ -28,14 +29,14 @@ h3{
     /* position: absolute;
     top: 50%; */
     margin-top: 20%;
-    margin-right: -7%;
+    margin-right: -30%;
 }
-img{
-    margin-left: 70%;
+#lien{
+    margin-left: 35%;
     
 }
 
-a{
+#continuer{
     margin-left: 40%;
     margin-bottom: 20%;
     margin-top: 10%;

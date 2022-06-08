@@ -22,16 +22,16 @@
                     <label for="message">Message</label>
                     <textarea name="message" id="message_tchat" placeholder="Saisissez">
                     </textarea>
-                    <input type="submit" value="Envoyer" style="background-color: #ffadd6; color: white; height: 30px; font-size: 15px; font-weight: bold; border: 0; border-radius: 5px; position: relative;">
+                    <input type="submit" name="envoyer" value="Envoyer">
                     <!-- <img src="../Asset/img/env2.png" alt="" srcset="" style="width: 30px; height: 30px; position: relative; top: -10px; right: 35px; color: rgba(137, 43, 226, 0.205);"> -->
                 </div>
                 <a href="../Asset/accueil_membre.html"><img src="../Asset/img/Retour.png" alt="image" srcset="" style="position:relative; left: 88%;"></a>
             </div>
             <div class="gauche">
                 <div class="rows">
-                    <a href="../Asset/tontine.html"><img class="icones" src="../Asset/img/Paiement.png" alt="image" sizes="" title="Effetuez le paiement"></a>
-                    <a href="../Asset/tchat.html"><img class="icones" src="../Asset/img/Discution.png" alt="image" sizes="" title="Discussion"></a>
-                    <a href="../Asset/visioconference.html"><img class="icones" src="../Asset/img/Viedeo.png" alt="image" sizes="" title="VisioConference"></a>
+                    <a href="../Asset/tontine.html"><img class="icones" src="../Asset/img/Paiement.png" alt="image" sizes=""></a>
+                    <a href="../Asset/tchat.html"><img class="icones" src="../Asset/img/Discution.png" alt="image" sizes=""></a>
+                    <a href="../Asset/visioconference.html"><img class="icones" src="../Asset/img/Viedeo.png" alt="image" sizes=""></a>
                 </div>
             </div>  
             <hr id="bar_haut">
@@ -39,5 +39,14 @@
             </div>
         </section>
     </div>
+    <?php
+        if (isset($_POST['Envoyer'])) {
+            $request=$PDO->query("SELECT Message.Message, membre.nom,
+            membre.prennom, membre.adresse, membre.fonction, membre.login, membre.pass, membre.groupuser,
+            membre.telephone message.Date, message.Expediteur FROM 
+            membre WHERE message.Date=Date.id_membre AND 
+            Date='$Date' AND Expediteur='$Expediteur'");
+        }
+    ?>  
 </body>
 </html>
