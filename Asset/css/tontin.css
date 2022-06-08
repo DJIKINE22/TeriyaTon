@@ -19,11 +19,11 @@ style {
     overflow: hidden;
   }
   .v8_53 {
-    width: 93px;
-    color: rgba(255,255,255,1);
+    width: 200px;
+    color: black;
     position: absolute;
     top: 293px;
-    left: 50px; 
+    left: 300px; 
     font-family: Inter;
     font-weight: Regular;
     font-size: 25px;
@@ -31,11 +31,11 @@ style {
     text-align: left;
   }
   .v74_455 {
-    width: 53px;
-    color: rgba(255,255,255,1);
+    width: 200px;
+    color: black;
     position: absolute;
     top: 363px;
-    left: 50px; 
+    left: 300px; 
     font-family: Inter;
     font-weight: Regular;
     font-size: 25px;
@@ -43,11 +43,11 @@ style {
     text-align: left;
   }
   .v8_23 {
-    width: 212px;
-    color: rgba(255,255,255,1);
+    width: 200px;
+    color: black;
     position: absolute;
     top: 225px;
-    left: 50px; 
+    left: 300px; 
     font-family: Inter;
     font-weight: Regular;
     font-size: 25px;
@@ -66,6 +66,7 @@ style {
   }
   .v38_408 {
     width: 205px;
+    background-color: white;
     color: rgba(0,0,0,1);
     position: absolute;
     top: 23px;
@@ -77,7 +78,7 @@ style {
     text-align: center;
   }
   .v102_422 {
-    width: 95px;
+    width: 10%;
     height: 38px;
     background: url("../img/LogoMoov.png" );
     background-repeat: no-repeat;
@@ -85,11 +86,11 @@ style {
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 143px;
+    top: 150px;
     left: 345px;
     overflow: hidden;
   }
-  .v102_424 {
+  #v102_424 {
     width: 24px;
     height: 27px;
     background: rgba(255,255,255,1);
@@ -100,7 +101,7 @@ style {
     border-radius: 50%;
     transform: rotate(-89deg);
   }
-  .v102_425 {
+  #v102_425 {
     width: 26px;
     height: 23px;
     background: rgba(255,255,255,1);
@@ -122,15 +123,15 @@ style {
     overflow: hidden;
   }
   .v102_426 {
-    width: 89px;
-    height: 40px;
+    width: 10%;
+    height: 40px; 
     background: url("../img/logo1.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 93px;
+    top: 98px;
     left: 347px;
     overflow: hidden;
   }
@@ -277,6 +278,49 @@ style {
     font-size: 25px;
     opacity: 1;
     text-align: left;
+  }
+  .v238_593 {
+    width: 207px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    /* margin: auto; */
+    top: 225px;
+     left: 50px; 
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v238_594 {
+    width: 207px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    /* margin: auto; */
+    top: 300px;
+     left: 50px; 
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v238_595 {
+    width: 207px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    /* margin: auto; */
+    top: 363px;
+     left: 50px; 
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  input[type='radio']{
+    accent-color: #CC1664;
+    
   }
 /* mois */
   style{
