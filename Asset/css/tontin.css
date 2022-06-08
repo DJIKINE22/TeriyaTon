@@ -58,6 +58,7 @@ style {
     width: 222px;
     height: 39px;
     background: rgba(255,255,255,1);
+    color: black;
     opacity: 1;
     position: absolute;
     top: 290px;
@@ -66,6 +67,7 @@ style {
   }
   .v38_408 {
     width: 205px;
+    background: rgb(255, 255, 255);
     color: rgba(0,0,0,1);
     position: absolute;
     top: 23px;
@@ -89,7 +91,7 @@ style {
     left: 345px;
     overflow: hidden;
   }
-  .v102_424 {
+  #v102_424 {
     width: 24px;
     height: 27px;
     background: rgba(255,255,255,1);
@@ -100,7 +102,7 @@ style {
     border-radius: 50%;
     transform: rotate(-89deg);
   }
-  .v102_425 {
+  #v102_425 {
     width: 26px;
     height: 23px;
     background: rgba(255,255,255,1);
@@ -114,7 +116,8 @@ style {
   .v186_593 {
     width: 222px;
     height: 39px;
-    background: rgba(255,255,255,1);
+    background: rgb(255, 255, 255);
+    color: black;
     opacity: 1;
     position: absolute;
     top: 356px;
@@ -160,6 +163,7 @@ style {
   .v186_592 {
     width: 222px;
     height: 39px;
+    color: black;
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
@@ -238,17 +242,17 @@ style {
   }
   .v184_602 {
     width: 120px;
-    color: rgba(0,0,0,1);
+    color: rgb(3, 3, 3);
     position: absolute;
-    
     top: 235px;
     left: 345px;
-
     font-family: Inter;
     font-weight: Regular;
     font-size: 16px;
     opacity: 1;
     text-align: left;
+
+    
   }
   .v186_597 {
     width: 80px;
